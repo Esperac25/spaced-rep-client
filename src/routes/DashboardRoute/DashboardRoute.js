@@ -1,4 +1,3 @@
-import { Dashboard } from '@material-ui/icons'
 import React, { Component } from 'react';
 import Dashboard from '../../components/Dashboard/Dashboard';
 import { LanguageProvider } from '../../contexts/LanguageContext';
