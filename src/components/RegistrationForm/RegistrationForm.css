@@ -1,0 +1,50 @@
+section {
+    text-align: center;
+  }
+  
+  .form-item {
+    margin: 20px 0;
+  }
+  
+  .register-header {
+    margin-top: 30px;
+  }
+  
+  .form-footer {
+    margin-top: 40px;
+    display: flow-root;
+    text-align: -webkit-center;
+  }
+  
+  .footer-link {
+    text-decoration-line: none;
+    color: white;
+    display: inherit;
+    margin-top: 15px;
+  }
+  
+  .footer-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  @media screen and (max-width: 700px) {
+    .registration-section {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    .registration-section p {
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  
+    .register-header {
+      margin-bottom: 10px;
+      margin-top: 0px;
+      font-size: 18px;
+    }
+  
+    .registration-section form {
+      margin-bottom: 20px;
+    }
+  }

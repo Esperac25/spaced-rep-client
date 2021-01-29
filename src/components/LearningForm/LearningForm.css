@@ -1,0 +1,137 @@
+.word-form-info {
+    color: #676767;
+    text-align: center;
+    line-height: 26px;
+  }
+  
+  .learning-section .Button {
+    margin-top: 15px;
+    text-align: center;
+    display: block;
+  }
+  
+  .learning-section header span {
+    color: #878787;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .learning-section header h2 {
+    margin: 0;
+  }
+  
+  .learning-section h2 {
+    -webkit-animation: fade-in-fwd 0.6s both;
+    animation: fade-in-fwd 0.6s both;
+  }
+  
+  .learning-section span {
+    -webkit-animation: fade-in-fwd 0.6s both;
+    animation: fade-in-fwd 0.6s both;
+  }
+  
+  .learning-section header {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .learning-section form {
+    margin-bottom: 30px;
+  }
+  
+  .learning-section form p {
+    text-align: center;
+    color: #99d3df;
+    font-weight: bold;
+  }
+  
+  .learning-section .Input {
+  }
+  
+  .learning-section {
+    margin-top: 40px;
+  }
+  
+  .DisplaySection {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    padding-bottom: 40px;
+    background-color: #309dcf;
+    border-radius: 8px;
+    box-shadow: 5px 5px rgba(34, 114, 151, 0.5), 10px 10px rgba(34, 114, 151, 0.4),
+      15px 15px rgba(35, 114, 151, 0.3), 20px 20px rgba(48, 157, 151, 0.2),
+      25px 25px rgba(48, 157, 151, 0.1);
+  }
+  
+  .DisplaySection h2,
+  .DisplaySection p {
+    color: #efefef;
+  }
+  
+  .result-btn {
+    max-width: 238px;
+    margin: 0 auto;
+    background-color: #99d3df;
+    color: #efefef;
+  }
+  
+  @-webkit-keyframes fade-in-fwd {
+    0% {
+      -webkit-transform: translateZ(-80px);
+      transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-in-fwd {
+    0% {
+      -webkit-transform: translateZ(-80px);
+      transform: translateZ(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .learning-section {
+      margin-top: 10px;
+    }
+    .learning-section form {
+      padding: 10px 20px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .learning-section {
+    }
+  
+    .learning-section form {
+      width: 95vw;
+    }
+  
+    .learning-section .Input {
+    }
+  
+    .learning-section h2 {
+      margin: 0 20px;
+    }
+  
+    .DisplayFeedback {
+      margin: 0 20px;
+    }
+  
+    .word-form-info {
+      font-size: 12px;
+      line-height: inherit;
+      margin: 10px 15px;
+    }
+  }
