@@ -1,9 +1,9 @@
 h2 {
-    color: #6c6c6c;
+    color: black;
   }
   
   p {
-    color: #6c6c6c;
+    color: black;
   }
   
   .form-item {
@@ -16,6 +16,7 @@ h2 {
     text-align: center;
     padding: 10px;
     font-weight: bold;
+    text-shadow: 0.03em 0.03em 0 black;
   }
   .form-item input {
     font-size: 16px;

@@ -1,8 +1,8 @@
 .word-form-info {
-    color: #676767;
     text-align: center;
     line-height: 26px;
-  }
+    text-shadow: 0.03em 0.03em 0  rgb(177, 166, 166);
+}
   
   .learning-section .Button {
     margin-top: 15px;
@@ -11,13 +11,14 @@
   }
   
   .learning-section header span {
-    color: #878787;
-    font-size: 15px;
+    color: black;
+    font-size: 20px;
     font-weight: bold;
   }
   
   .learning-section header h2 {
     margin: 0;
+    text-shadow: 0.03em 0.03em 0 rgb(177, 166, 166);
   }
   
   .learning-section h2 {
@@ -41,8 +42,9 @@
   
   .learning-section form p {
     text-align: center;
-    color: #99d3df;
+    color: white;
     font-weight: bold;
+    text-shadow: 0.03em 0.03em 0 black;
   }
   
   .learning-section .Input {
@@ -59,14 +61,16 @@
     padding-bottom: 40px;
     background-color: #309dcf;
     border-radius: 8px;
-    box-shadow: 5px 5px rgba(34, 114, 151, 0.5), 10px 10px rgba(34, 114, 151, 0.4),
-      15px 15px rgba(35, 114, 151, 0.3), 20px 20px rgba(48, 157, 151, 0.2),
-      25px 25px rgba(48, 157, 151, 0.1);
+    box-shadow: 5px 5px #F43E4D,
+                10px 10px #F5515F,
+                15px 15px #F66571,
+                20px 20px #F66571,
+                25px 25px #F88B94;
   }
   
   .DisplaySection h2,
   .DisplaySection p {
-    color: #efefef;
+    color: white;
   }
   
   .result-btn {

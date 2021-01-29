@@ -4,12 +4,14 @@ button {
     height: 41px;
     font-size: 18px;
     font-weight: bold;
-    background-color: #99d3df;
+    font-family: 'Fredoka One', cursive;
+    background-color: #F7B2B7;
     border: none;
     padding: 4px 8px;
     color: white;
     border-radius: 5px;
     display: inherit;
+    text-shadow: 0.03em 0.03em 0 black;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.06), 0 5px 4px 0 rgba(0, 0, 0, 0.1);
   }
   
