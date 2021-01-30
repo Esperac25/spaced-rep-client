@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import LearningForm from '../../components/LearningForm/LearningForm';
+
 class LearningRoute extends Component {
   render() {
     return (
@@ -10,4 +11,4 @@ class LearningRoute extends Component {
   }
 }
 
-export default LearningRoute
+export default LearningRoute;

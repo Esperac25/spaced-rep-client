@@ -6,7 +6,7 @@ class DashboardRoute extends Component {
   render() {
     return (
       <LanguageProvider>
-        <section className=''>
+        <section className='dashboard-section'>
           <Dashboard/>
         </section>
       </LanguageProvider>
