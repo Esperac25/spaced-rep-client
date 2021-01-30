@@ -10,8 +10,6 @@ body {
 	font-family: 'Fredoka One', cursive;
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-shadow: 0.03em 0.03em 0 black;
-  font-weight: bold;
 }
 
 :root {
