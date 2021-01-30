@@ -1,0 +1,31 @@
+.word-list{
+    list-style: none;
+    line-height: 26px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.word-list li{
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    border-top: 2px solid  #8f7875;
+}
+.item{
+    margin: 0;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline #8f7875;
+}
+.item-span{
+    align-items: flex-end;
+    display: block;
+}
+.larger{
+    font-size: 30px;
+}
+.adjust{
+    text-decoration: none;
+}

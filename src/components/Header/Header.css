@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+}
+.header-logo{
+    float: left;
+    font-size: 25px;
+    margin: 0;
+}
+.navbar{
+    background-color: #dc7f9b;
+    text-align: end;
+    padding: 15px;
+    height: 60px;
+}
+.navbar a{
+    text-decoration: none;
+    text-shadow: 2px 2px #8f7875 ;
+    color: #f9f1f1;
+    padding: 5px;
+    line-height: 30px;
+}
+.navbar a:hover{
+    text-decoration: none;
+    color: #f5b9c7;
+}
+nav{
+    display: inline-block
+}
+.logo{
+    text-shadow: 2px 2px #8f7875 ;
+    color: #f9f1f1;
+}
+.user{
+    text-decoration: none;
+    text-shadow: 2px 2px #8f7875 ;
+    color: #f9f1f1;
+    padding: 5px;
+    line-height: 30px;
+    border-right: 2px solid  #f9f1f1;
+}

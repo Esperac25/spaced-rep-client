@@ -7,6 +7,7 @@ import Correct from '../Results/Correct';
 import Incorrect from '../Results/Incorrect';
 import './LearningForm.css';
 
+
 export default function LearningForm() {
   const languageContext = useContext(LanguageContext);
   const [head, setHead] = useState(null);
@@ -45,23 +46,23 @@ export default function LearningForm() {
   const showResults = () => {
     return (
       <React.Fragment>
-        <div>
+        <div className='center'>
           <p>Your total score is: {head.totalScore}</p>
         </div>
         <section>
-        <h2>
+        <h2 className='center'>
           {!correct
             ? <Incorrect />
             : <Correct />}
         </h2>
-        <div>
+        <div className='box'>
           <p>
             The correct translation for {result.question} was {result.answer}{' '}
             and you chose {input}!
           </p> 
           </div>
-        <Button  onClick={showQuestion} type="submit">
-          Try another word!
+        <Button onClick={showQuestion} type="submit">
+          <p className='button-2'>Next</p>
         </Button>
         </section>
       </React.Fragment>
@@ -79,14 +80,16 @@ export default function LearningForm() {
           <header>
             <h2>Translate the word:</h2>
 
-            <span>{head.nextWord}</span>
-          </header>
-          <form onSubmit={e => guessWord(e)}>
             <p>{`Your total score is: ${head.totalScore}`}</p>
+          </header>
+          <form className='box' onSubmit={e => guessWord(e)}>
+          <span className='word'>{head.nextWord}</span>
+          <br></br>
             <div>
               <label htmlFor="learn-guess-input">
                 What's the translation for this word?
               </label>
+              <br></br>
               <Input
                 ref={questionInput}
                 id="learn-guess-input"
@@ -94,7 +97,7 @@ export default function LearningForm() {
                 required
               />
             </div>
-            <Button type="submit">Submit your answer</Button>
+            <Button type="submit">Submit</Button>
           </form>
         </React.Fragment>
       )}

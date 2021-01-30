@@ -15,9 +15,9 @@ class RegistrationRoute extends Component {
 
   render() {
     return (
-      <section>
+      <section className='center'>
         <p>
-          Practice learning a language with the spaced repetition revision technique.
+          Practice learning French with the spaced repetition revision technique.
         </p>
         <h2>Sign up</h2>
         <RegistrationForm
