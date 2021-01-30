@@ -45,22 +45,22 @@ export default function LearningForm() {
   const showResults = () => {
     return (
       <React.Fragment>
-        <div className="DisplayScore">
+        <div>
           <p>Your total score is: {head.totalScore}</p>
         </div>
-        <section className="DisplaySection">
+        <section>
         <h2>
           {!correct
             ? <Incorrect />
             : <Correct />}
         </h2>
-        <div className="DisplayFeedback">
+        <div>
           <p>
             The correct translation for {result.question} was {result.answer}{' '}
             and you chose {input}!
           </p> 
           </div>
-        <Button className="result-btn" onClick={showQuestion} type="submit">
+        <Button  onClick={showQuestion} type="submit">
           Try another word!
         </Button>
         </section>
@@ -83,7 +83,7 @@ export default function LearningForm() {
           </header>
           <form onSubmit={e => guessWord(e)}>
             <p>{`Your total score is: ${head.totalScore}`}</p>
-            <div className="form-item">
+            <div>
               <label htmlFor="learn-guess-input">
                 What's the translation for this word?
               </label>
@@ -96,14 +96,6 @@ export default function LearningForm() {
             </div>
             <Button type="submit">Submit your answer</Button>
           </form>
-
-          <p className="word-form-info">
-            You have answered this word correctly {head.wordCorrectCount} times.
-          </p>
-          <p className="word-form-info">
-            You have answered this word incorrectly {head.wordIncorrectCount}{' '}
-            times.
-          </p>
         </React.Fragment>
       )}
       {view === 'answer' && head !== null && showResults()}

@@ -35,15 +35,15 @@ class Dashboard extends Component {
               <h2>{this.context.language.name}</h2>
               <p>Total correct answers: {this.context.language.total_score}</p>
 
-              <section className="list-container">
+              <section>
                 <h3>Words to practice</h3>
                 <ul className="word-list">
                   {words.map((word, i) => (
                     <WordList key={i} word={word} />
                   ))}
                 </ul>
-                <Link to="/learn" className="dashboard-btn">
-                  <Button className="dashboard-btn">Start practicing</Button>
+                <Link to="/learn">
+                  <Button>Start practicing</Button>
                 </Link>
               </section>
             </div>
