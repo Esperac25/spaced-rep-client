@@ -48,8 +48,9 @@ class RegistrationForm extends Component {
         </div>
         <div>
           <Label htmlFor='registration-name-input'>
-            Enter your name<Required />
+            Name<Required />
           </Label>
+          <br></br>
           <Input
             ref={this.firstInput}
             id='registration-name-input'
@@ -59,8 +60,9 @@ class RegistrationForm extends Component {
         </div>
         <div>
           <Label htmlFor='registration-username-input'>
-            Choose a username<Required />
+            Username<Required />
           </Label>
+          <br></br>
           <Input
             id='registration-username-input'
             name='username'
@@ -69,8 +71,9 @@ class RegistrationForm extends Component {
         </div>
         <div>
           <Label htmlFor='registration-password-input'>
-            Choose a password<Required />
+            Password<Required />
           </Label>
+          <br></br>
           <Input
             id='registration-password-input'
             name='password'
