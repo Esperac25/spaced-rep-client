@@ -1,4 +1,4 @@
 export default {
-  API_ENDPOINT: 'http://localhost:8000/api',
+  API_ENDPOINT: `https://spaced-rep-api-esperanza.herokuapp.com/api`,
   TOKEN_KEY: 'spaced-rep-auth-token',
 }
