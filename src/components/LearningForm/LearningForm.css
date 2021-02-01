@@ -1,0 +1,23 @@
+.word{
+    text-decoration: underline;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-2{
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    color: #8f334e;
+    width: 100px;
+    height: 35px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #f7a1c4;
+    display: inherit;
+    font-family: 'Fredoka One';
+    padding: 4px 8px;
+    margin: 0 auto;
+    margin-top: 5px;
+}

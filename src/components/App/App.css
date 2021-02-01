@@ -1,0 +1,17 @@
+.center{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+    width: 300px;
+    border-radius: 7px;
+    padding: 25px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #dc7f9b;
+    text-shadow: 2px 2px #441457 ;
+    color: white;
+    font-weight: bold;
+}
