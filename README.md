@@ -27,6 +27,24 @@ client-live: https://spaced-rep-client.esperac25.vercel.app/
 
 -User can view their total correct words 
 
-Tech Stack:
+## Register
+[![Screen-Shot-2021-04-06-at-8-35-30-PM-2.png](https://i.postimg.cc/bN9k2tnd/Screen-Shot-2021-04-06-at-8-35-30-PM-2.png)](https://postimg.cc/mthtvh8G)
 
--React, HTML,CSS, JavaScript
+## Login
+[![Screen-Shot-2021-04-06-at-8-35-43-PM-2.png](https://i.postimg.cc/4x4tvxvP/Screen-Shot-2021-04-06-at-8-35-43-PM-2.png)](https://postimg.cc/jL9LtKFn)
+
+## Wordlist
+[![Screen-Shot-2021-04-06-at-8-35-49-PM-2.png](https://i.postimg.cc/y8fRLCvH/Screen-Shot-2021-04-06-at-8-35-49-PM-2.png)](https://postimg.cc/RWHq08ks)
+
+## Practice View
+[![Screen-Shot-2021-04-06-at-8-36-07-PM-2.png](https://i.postimg.cc/d0tB09Sq/Screen-Shot-2021-04-06-at-8-36-07-PM-2.png)](https://postimg.cc/MnNRP1S4)
+
+## Correct view
+[![Screen-Shot-2021-04-06-at-8-36-02-PM-2.png](https://i.postimg.cc/VvBrMxd2/Screen-Shot-2021-04-06-at-8-36-02-PM-2.png)](https://postimg.cc/D40w3YQc)
+
+## Incorrect View
+[![Screen-Shot-2021-04-06-at-8-36-10-PM-2.png](https://i.postimg.cc/MT5dDFMf/Screen-Shot-2021-04-06-at-8-36-10-PM-2.png)](https://postimg.cc/xJkvjgP9)
+
+## Tech Stack:
+
+-React, HTML,CSS, JavaScript, PostgreSQL, Cypress
